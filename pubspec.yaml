@@ -1,0 +1,59 @@
+name: PersonalFinanceManager
+description: "A Flutter project for managing personal finances locally"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  path_provider: ^2.1.2
+  sqflite: ^2.3.2  # For local database storage
+  pie_chart: ^5.1.0  # For financial data visualization in reports
+  cupertino_icons: ^1.0.2  # iOS-style icons
+  path: ^1.8.0
+  fl_chart: ^0.69.0
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/waiting.png
+    - assets/images/background.webp
+    - assets/images/logo.jpg
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
