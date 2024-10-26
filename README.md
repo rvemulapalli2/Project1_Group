@@ -1,4 +1,4 @@
-# fe
+# Personal Finance Companion
 
 A new Flutter project.
 
