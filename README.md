@@ -1,9 +1,13 @@
-# Personal Finance Companion
+Ttile : Personal Finance Companion
 
-A new Flutter project.
+Our presentation Youtube link : https://youtu.be/U3KZIi7mrLQ
+
+By,
+Rishitha Vemulapalli and Shalini Chintala.
+Instructor: Henry Louis
 
 
-Our presentation Youtube link : 
+
 
 ## Getting Started
 
